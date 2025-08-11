@@ -1,0 +1,8 @@
+{
+  "displayName": "Slime Factory Automation",
+  "description": "Fully automates the Slime Factory event with intelligent management of all machines, automatic upgrades, and optimal collection timing.",
+  "version": "2.1.0",
+  "displayMode": "Both",
+  "overlay": true,
+  "tags": ["event", "slime factory", "automation", "current"]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Slime Factory Manager",
+  "description": "Advanced automation script for the Slime Factory event that optimizes production, collection, and upgrades for maximum profits. Customized for Jacquie's account and gameplay preferences.",
+  "version": "2.1.0",
+  "author": "Jacquie",
+  "updated_at": "2024-04-08",
+  "display_mode": "Windowed",
+  "tags": ["slime_factory", "current", "event", "featured", "jacquie"],
+  "features": [
+    "Automatic slime production and collection",
+    "Optimal upgrade path prioritization",
+    "Detection and focus on special event boosts",
+    "Auto-deposits to maximize compound interest",
+    "Pixel-perfect clicking patterns to avoid detection",
+    "Variable timing to simulate human behavior",
+    "Support for background operation",
+    "Real-time profit tracking and analytics",
+    "Auto-resume after disconnection"
+  ],
+  "settings": [
+    {
+      "name": "username",
+      "label": "Roblox Username",
+      "type": "text",
+      "default": "",
+      "description": "Your Roblox username for account synchronization"
+    },
+    {
+      "name": "autoCollect",
+      "label": "Auto-Collect Interval",
+      "type": "slider",
+      "min": 10,
+      "max": 60,
+      "default": 30,
+      "description": "How often to collect slime (in seconds)"
+    },
+    {
+      "name": "prioritizeUpgrades",
+      "label": "Prioritize Upgrades",
+      "type": "checkbox",
+      "default": true,
+      "description": "Automatically purchase upgrades when available"
+    },
+    {
+      "name": "upgradeStrategy",
+      "label": "Upgrade Strategy",
+      "type": "dropdown",
+      "options": ["Balanced", "Production Focus", "Income Focus", "Speed Focus"],
+      "default": "Balanced",
+      "description": "Which strategy to use when purchasing upgrades"
+    },
+    {
+      "name": "autoDeposit",
+      "label": "Auto-Deposit",
+      "type": "checkbox",
+      "default": true,
+      "description": "Automatically deposit slime for compound interest"
+    },
+    {
+      "name": "stealthMode",
+      "label": "Stealth Mode",
+      "type": "checkbox",
+      "default": true,
+      "description": "Use variable timing and movement patterns to avoid detection"
+    }
+  ]
+}
